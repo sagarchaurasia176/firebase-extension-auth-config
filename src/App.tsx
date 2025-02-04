@@ -1,8 +1,8 @@
 import SignInWithPopup from './SignInWithPopup'
-
+import './App.css'
 const App = () => {
   return (
-    <div>
+    <div className=' bg-slate-800 '>
       <SignInWithPopup/>
     </div>
   )
