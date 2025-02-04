@@ -2,7 +2,7 @@ import SignInWithPopup from './SignInWithPopup'
 import './App.css'
 const App = () => {
   return (
-    <div className=' bg-slate-200'>
+    <div className=''>
       <SignInWithPopup/>
     </div>
   )

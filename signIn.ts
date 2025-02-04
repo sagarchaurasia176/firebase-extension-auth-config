@@ -10,7 +10,6 @@ export function signIn(): void {
     .then((result: UserCredential) => {
       if (result.user) {
         console.log("User signed in:", result.user.displayName);
-        alert(`Thanks To Install, ${result.user.displayName}!`);
       }
     })
     .catch((error: Error) => {
