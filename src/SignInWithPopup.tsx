@@ -1,9 +1,8 @@
-import { signIn } from '../signIn';
-
+// import { signIn } from '../signIn';
 const SignInWithPopup: React.FC = () => {
   return (
     <div>
-        <button
+        {/* <button
       onClick={signIn}
 style={{
             color: 'white',
@@ -23,7 +22,7 @@ style={{
         >
           <i className="fas fa-sign-in-alt" style={{ marginRight: '0.5rem' }}></i>
           Sign In with Google
-        </button>
+        </button> */}
     </div>
   );
 };
